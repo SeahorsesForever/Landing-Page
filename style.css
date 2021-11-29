@@ -9,6 +9,7 @@
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .header-image-logo {
@@ -21,7 +22,8 @@
 .header-image-quartz {
     max-width: 280px;
     max-height: 260px;
-    padding: 50px;
+    border:#3882f6 solid 2px;
+    border-radius: 5px;
 }
 
 .header-top {
@@ -73,7 +75,8 @@ ul {
     background-color: #3882f6;
     margin: 4px;
     color: white;
-    border-radius: 25px;
+    border: none;
+    border-radius: 5px;
 }
 
 .main {
@@ -102,21 +105,30 @@ ul {
     width: 180px;
     height: 140px;
     border: 2px solid #3882f6;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 .info {
     max-width: 150px;
+    text-align: center;
 }
 
 .quote {
     display: flex;
-    padding: 200px;
+    flex-direction: column;
+    padding: 160px;
     max-height: 250px;
     background-color: #e5e7eb; 
     font-style: italic;
     font-size: 36px;
+    font-weight: lighter;
     color: #1f2937;
+}
+
+.quote-credit {
+    padding: 4px;
+    text-align: end;
+    font-weight: bold;
 }
 
 .action {
@@ -126,18 +138,28 @@ ul {
     background-color: #3882f6;
     margin: 100px;
     color: #e5e7eb;
-    border-radius: 25px;
+    border-radius: 5px;
+    gap: 50px;
 }
 
 .action-left {
-    max-width: 300px;
+    max-width: 500px;
+}
+
+p.action-call {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+h6.action-text {
+    margin-top: 0;
 }
 
 .action-button {
     background-color: #3882f6;
     border: 2px solid white;
     color: #e5e7eb;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 .footer {
