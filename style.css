@@ -1,13 +1,12 @@
 .body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 8px;
+    font-family: sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    background-color: darkslategray;
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
 }
@@ -20,35 +19,40 @@
 }
 
 .header-image-quartz {
-    max-width: 210px;
-    max-height: 200px;
+    max-width: 280px;
+    max-height: 260px;
     padding: 50px;
 }
 
 .header-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex: 1 1 0;
-    padding: 20px;
-    margin: 5px;
+    margin: 10px;
+    gap: 300px;
 }
 
 .header-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .header-intro {
-    font-size: larger;
-    font-weight: bold;
-    color: white
+    width: 400px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #e5e7eb;
+    margin: 4px;
 }
 
 .header-paragraph {
-    color: white;
-    width: 250px;
+    width: 300px;
+    color: #e5e7eb;
+    width: 250px;    
+    font-size: 18px;
+    margin: 4px;
 }
 
 ul {
@@ -66,9 +70,11 @@ ul {
 
 .header-button {
     max-width: 70px;
+    background-color: #3882f6;
+    margin: 4px;
+    color: white;
+    border-radius: 25px;
 }
-
-
 
 .main {
     display: flex;
@@ -79,20 +85,24 @@ ul {
 .main-title {
     display: flex;
     justify-content: center;
+    color: #1f2937;
 }
 
 .image-slider {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
     padding: 20px;
     width: auto;
+    color:#1f2937
 }
 
 .slider-image {
-    width: 150px;
-    height: 120px;
+    width: 180px;
+    height: 140px;
+    border: 2px solid #3882f6;
+    border-radius: 25px;
 }
 
 .info {
@@ -101,26 +111,41 @@ ul {
 
 .quote {
     display: flex;
-    padding: 100px;
-    background-color: gray;
-    color: white;
+    padding: 200px;
+    max-height: 250px;
+    background-color: #e5e7eb; 
     font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .action {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkslategray;
-    margin: 50px;
+    background-color: #3882f6;
+    margin: 100px;
+    color: #e5e7eb;
+    border-radius: 25px;
 }
 
 .action-left {
     max-width: 300px;
+}
 
+.action-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: #e5e7eb;
+    border-radius: 25px;
 }
 
 .footer {
-    text-align: center;
-    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    height: 80px;
 }
