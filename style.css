@@ -1,0 +1,126 @@
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 8px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-image-logo {
+    max-width: 20px;
+    max-height: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.header-image-quartz {
+    max-width: 210px;
+    max-height: 200px;
+    padding: 50px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 0;
+    padding: 20px;
+    margin: 5px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-intro {
+    font-size: larger;
+    font-weight: bold;
+    color: white
+}
+
+.header-paragraph {
+    color: white;
+    width: 250px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    color: white
+}
+
+.header-bottom-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.header-button {
+    max-width: 70px;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+}
+
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    width: auto;
+}
+
+.slider-image {
+    width: 150px;
+    height: 120px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.quote {
+    display: flex;
+    padding: 100px;
+    background-color: gray;
+    color: white;
+    font-style: italic;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    margin: 50px;
+}
+
+.action-left {
+    max-width: 300px;
+
+}
+
+.footer {
+    text-align: center;
+    background-color: darkslategray;
+}
