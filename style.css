@@ -1,3 +1,8 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .body {
     font-family: sans-serif;
     min-height: 100vh;
@@ -35,10 +40,16 @@
 }
 
 .header-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .header-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .header-intro {
@@ -92,13 +103,19 @@ ul {
 }
 
 .image-slider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 60px;
     padding: 20px;
     width: auto;
     color:#1f2937
+}
+
+@media (min-width: 768px) {
+    .image-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
 .slider-image {
